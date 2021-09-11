@@ -25,7 +25,9 @@ SECRET_KEY = '^&==n4l4oibs=muibm*-gd_^douq@^7wkht=_q)41j75bn5$7o'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['eduwintechnologies.com']
+PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
+STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
 
 
 # Application definition
